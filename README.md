@@ -63,3 +63,11 @@ This will run the container in detach mode to desable this run the command witho
 docker-compose down --volumes
 ```
 This will stop the containers and delete all persisted data from the database volumes
+
+## Possible Improvements
+
+Adding encryption to the API end points this would mean adding JWT tokens or an API key on the endpoints.
+
+Coverage of all code in unit tests and inclusion on integration tests.
+
+Addition of a CI/CD pipeline to automate testing when merging to main branch on github.
